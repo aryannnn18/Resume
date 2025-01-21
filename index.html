@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+       
+    </style>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+</head>
+<body class="poppins-light">
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo" alt="Logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front-End Developer / Graphic Designer</p>
+                <h1>Hi, I'm <span>Aryan</span><br>From New Delhi, India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="Profile Picture">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a skilled front-end developer with a strong foundation in graphic design, combining technical expertise with creative vision to build visually appealing and user-friendly websites. My proficiency in HTML, CSS, JavaScript, and design tools enables me to craft responsive, engaging digital experiences. I am passionate about creating seamless interfaces that blend functionality and aesthetics to meet user needs.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab(event, 'Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab(event, 'Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab(event, 'Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Web/App Interface</li>
+                            <li><span>Web Development</span><br>Using HTML, CSS, JavaScript, jQuery, Bootstrap, and ReactJS</li>
+                            <li><span>Graphic Design</span><br>Adobe Photoshop, Adobe Illustrator, Adobe InDesign, Adobe Animate, and CorelDraw</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>UI/UX</span><br>Fresher</li>
+                            <li><span>Web Development</span><br>Fresher</li>
+                            <li><span>Graphic Design</span><br>Fresher</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2022</span><br>I successfully completed my 12th standard with 87% from Mukherjee Memorial Senior Secondary School, demonstrating strong academic performance and a commitment to excellence</li>
+                            <li><span>2025</span><br>I have completed a Diploma in Web Development from IICS, with graduation expected in 2025.</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- service Section -->
+    <div id="services" >
+    	<div class="container">
+        <h1 class="sub-title"> My Services</h1>
+        <div class="services-list">
+        	<div>
+        		<i class="fas fa-code"></i>
+        		<h2>Web Design</h2>
+        		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        		tempor incididunt ut labore et dolore magna aliqua. </p>
+        		<a href="#"> Learn More</a>
+        	</div>
+        	<div>
+                <i class="fas fa-paint-brush"></i>
+
+        		<h2>Graphic Design</h2>
+        		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        		tempor incididunt ut labore et dolore magna aliqua. </p>
+        		<a href="#"> Learn More</a>
+        	</div>
+        	<div>
+        		<i class="fas fa-crop-alt"></i>
+        		<h2>UI/UX Design</h2>
+        		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        		tempor incididunt ut labore et dolore magna aliqua. </p>
+        		<a href="#"> Learn More</a>
+        	</div>
+        	
+        </div>
+	
+    		
+    	</div>
+    	
+    </div>
+    <!-- contact Section -->
+    <div id="contact">
+    	<div class="container">
+    		<div class="row">
+    			<div class="contact-left">
+    				<h1 class="sub-title">Contact-Me</h1>
+    				<p><i class="fas fa-paper-plane"></i>aryan995859@gmail.com</p>
+    				<p><i class="fas fa-phone"></i>9958591646</p>
+    				<div class="social-icon">
+    				<a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a> 
+                    <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a> 
+                    <a href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a> 
+                    <a href="https://github.com/"><i class="fab fa-github"></i></a> 	
+    				</div>
+                    <button class="btn"> <a href="">Download CV</a> </button>
+    			</div>
+    			<div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"> </textarea>
+                        <button type="submit" class="btn btn2"> Submit</button>
+                    </form>
+    				
+    			</div>
+    			
+    		</div>
+    		
+    	</div>
+        <div class="copyright"><p>
+            Copyright &copy Aryan. Made with <i class="fas fa-heart"></i> by ARYAN
+        </p>
+            
+        </div>
+    	
+    </div>
+
+
+
+    <script type="text/javascript">
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(event, tabname) {
+            
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script type="text/javascript">
+        var sidemen = document.getElementById("sidemenu");
+
+        function openmenu()
+        {
+   sidemen.style.right = "0";
+   sidemen.style.transition = "0.5s"
+        }
+
+        function closemenu(){
+   sidemen.style.right = "-200px";
+   sidemen.style.transition = "0.5s"
+        }
+
+    </script>
+</body>
+</html>
