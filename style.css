@@ -197,7 +197,7 @@ nav
 .services-list div a
 {
 	text-decoration: none;
-	color: black;
+	color: #fff;
 	font-size: 12px;
 	margin-top: 12px;
 	display: inline-block;
@@ -258,13 +258,12 @@ nav
 	text-decoration: none;
 	background: #00FFFF;
 	display: inline-block;
-	color: black;
 	
 }
 .contact-left .btn a 
 {
 	text-decoration: none;
-	color: white;
+	color: black;
 }
 .contact-right form 
 {
@@ -347,6 +346,7 @@ nav ul li
 {
 	display: block;
 	margin: 25px;
+	color: black;
 }
 nav ul .fas
 {
