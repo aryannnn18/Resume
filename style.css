@@ -348,6 +348,11 @@ nav ul li
 	margin: 25px;
 	color: black;
 }
+nav ul li a
+	{
+		color: black;
+	}
+	
 nav ul .fas
 {
 	position: absolute;
