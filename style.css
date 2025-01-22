@@ -78,7 +78,7 @@ nav
   }
   .header-text h1 span
   {
-  	color: #ff004f;
+  	color: #00FFFF;
   }
   /*---------about-------*/
   #about
@@ -133,7 +133,7 @@ nav
 	content: '';
 	width: 0;
 	height: 3px;
-	background: #ff004f;
+	background: #00FFFF;
 	position: absolute;
 	left: 0;
 	bottom: -8px;
@@ -152,7 +152,7 @@ nav
 .tab-contents ul li span
 {
 	font-size: 12px;
-	color: #ff004f;
+	color: #00FFFF;
 }
 .tab-contents
 {
@@ -205,7 +205,8 @@ nav
 }
 .services-list div:hover
 {
-	background: #ff004f;
+	background: #00FFFF;
+	color: black;
 	transform: translateY(-10px);
 }
 /*----------contact--------*/
@@ -224,7 +225,7 @@ nav
 }
 .contact-left p i 
 {
-	color: #ff004f;
+	color: #00FFFF;
 	margin-right: 15px;
 	font-size: 25px;
 }
@@ -243,7 +244,7 @@ nav
 }
 .social-icon a:hover
 {
-	color: #ff004f;
+	color: #00FFFF;
 	transform: translateY(-5px);
 }
 .btn 
@@ -251,11 +252,11 @@ nav
 	display: block;
 	margin: 30px auto;
 	width: fit-content;
-	border: 1px solid #ff004f;
+	border: 1px solid #00FFFF;
 	padding: 14px 50px;
 	border-radius: 6px;
 	text-decoration: none;
-	background: #ff004f;
+	background: #00FFFF;
 	display: inline-block;
 	color: white;
 	
@@ -299,7 +300,7 @@ form .btn2
 }
 .copyright i 
 {
-	color: #ff004f;
+	color: #00FFFF;
 }
 /*---------css media screen-----*/
 nav .fas
