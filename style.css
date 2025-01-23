@@ -34,8 +34,12 @@ nav
 	justify-content: space-between;
 	flex-wrap: wrap;
 }	
-.logo{
-	width: 110px;
+nav h1
+{ font-size:28px;
+}
+nav h1 span
+{
+	color:#00FFFF;
 }
  nav ul li 
  {
