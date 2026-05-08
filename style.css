@@ -11,7 +11,7 @@
 .cursor {
   width: 10px;
   height: 10px;
-  background: #ff004f;
+  background: #00ffff;
   border-radius: 50%;
   position: fixed;
   pointer-events: none;
@@ -23,7 +23,7 @@
 .cursor-ring {
   width: 36px;
   height: 36px;
-  border: 1.5px solid rgba(255, 0, 79, 0.5);
+  border: 1.5px solid rgba(0, 255, 255, 1);
   border-radius: 50%;
   position: fixed;
   pointer-events: none;
