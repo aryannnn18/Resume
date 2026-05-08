@@ -5,6 +5,30 @@
 	font-family: 'poppins', 'sans-serif;';
 
 }
+
+* { cursor: none; }
+
+.cursor {
+  width: 10px;
+  height: 10px;
+  background: #ff004f;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 99999;
+  transition: transform 0.15s ease;
+  mix-blend-mode: screen;
+}
+
+.cursor-ring {
+  width: 36px;
+  height: 36px;
+  border: 1.5px solid rgba(255, 0, 79, 0.5);
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 99998;
+}
 html	
 {
 	scroll-behavior: smooth;
